@@ -1,5 +1,5 @@
 # Lotus Mockup
-* Baseed on "Nuxt Starter Template: Scrolling SPA"
+* Based on "Nuxt Starter Template: Scrolling SPA"
 * Contentful
 * Axios
 * SCSS
