@@ -2,7 +2,7 @@
   <vue-headroom>
       <ul class="ul-nav">
         <li class="li-logo">
-          <img src="~/assets/images/sleep-logo.png" alt=" Logo" class="logo">
+          <img src="~/assets/images/lotus-logo.png" alt=" Logo" class="logo">
         </li>
         <a class="a" href="#" v-scroll-to="'#section-2'">
         <li class="li-user-nav">Products</li></a>
