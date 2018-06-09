@@ -5,7 +5,7 @@
           <img src="~/assets/images/lotus-logo.png" alt=" Logo" class="logo">
         </li>
         <a class="a" href="#" v-scroll-to="'#section-2'">
-        <li class="li-user-nav">Products</li></a>
+        <li class="li-user-nav">Models</li></a>
         <a class="a" href="#" v-scroll-to="'#section-3'">
         <li class="li-user-nav">About</li></a>
         <a class="a" href="#" v-scroll-to="'#section-4'">
