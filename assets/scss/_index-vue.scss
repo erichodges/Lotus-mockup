@@ -12,9 +12,9 @@
 
 .section-1__heading {
   display: grid;
-  grid-template-columns: minmax(30vw, 40vw) auto;
-  grid-template-rows: 1fr min-content min-content auto;
-  height: 95vh;
+  grid-template-columns: 5vw minmax(30vw, 50vw) auto;
+  grid-template-rows: 1fr min-content min-content auto 6vh;
+  height: 100vh;
 }
 
 .title {
@@ -24,6 +24,7 @@
   font-size: 8rem;
   color: #fff;
   letter-spacing: 1px;
+  grid-column: 2;
   grid-row: 2;
   
 }
@@ -34,12 +35,13 @@
   color: #fff;
   word-spacing: .5rem;
   padding-bottom: 1.5rem;
+  grid-column: 2;
   grid-row: 3;
 }
 
 .links {  
   // 
-  grid-column: 1;
+  grid-column: 2;
   grid-row: 4;
 }
 
@@ -77,11 +79,15 @@
 }
 
 .down-arrow-div {
-  padding-top: 7rem;
+  padding-top: 1rem;
+  
+  grid-column: 2;
+  grid-row: 5;
 }
 
 .down-arrow {
   fill: #c1c1c4;
+  
 
   &:hover {
     transform: translateY(5px);
