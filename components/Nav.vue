@@ -4,6 +4,8 @@
         <li class="li-logo">
           <img src="~/assets/images/lotus-logo.png" alt=" Logo" class="logo">
         </li>
+        <a class="a" href="#" v-popover:ccc.bottom>
+        <li class="li-user-nav">Popover</li></a>
         <a class="a" href="#" v-scroll-to="'#section-2'">
         <li class="li-user-nav">Models</li></a>
         <a class="a" href="#" v-scroll-to="'#section-3'">
@@ -12,5 +14,24 @@
         <li class="li-user-nav">Contact</li></a>        
         <li class="nav-spacer-right"> </li>
       </ul>
+
+        <popover name="ccc">
+        <div>Hm...😠</div>
+        <div>Opened at</div>
+        </popover>
+
       </vue-headroom>
+
+      
 </template>
+
+<script>
+
+</script>
+
+<style>
+  .a[data-popover="ccc"] {
+    font-size: 1.5rem;
+  }
+</style>
+

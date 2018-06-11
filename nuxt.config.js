@@ -32,7 +32,8 @@ module.exports = {
     {src: '~/plugins/contentful.js'},  //????
     {src: '~/plugins/headroom.js'},
     {src: '~/plugins/jump.js', ssr: false},
-    {src: '~/plugins/vue-scrollto.js'} 
+    {src: '~/plugins/vue-scrollto.js'},
+    {src: '~/plugins/popover.js', ssr: false}
   ],
 
   env: {
