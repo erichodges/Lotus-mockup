@@ -5,7 +5,7 @@
           <img src="~/assets/images/lotus-logo.png" alt=" Logo" class="logo">
         </li>
         <a class="a" href="#" >
-        <li class="li-user-nav" v-popover:ccc.bottom>Popover</li></a>
+        <li class="li-user-nav" v-popover:ccc.bottom="{type: String, default: 'hover'}">Popover</li></a>
         <a class="a" href="#" v-scroll-to="'#section-2'">
         <li class="li-user-nav">Models</li></a>
         <a class="a" href="#" v-scroll-to="'#section-3'">
@@ -14,12 +14,12 @@
         <li class="li-user-nav">Contact</li></a>        
         <li class="nav-spacer-right"> </li>
       </ul>
-
-        <popover name="ccc">
-        <div>Hm...😠</div>
-        <div>Opened at</div>
-        <div>Testing...</div>
-        </popover>
+        <no-ssr>
+          <popover name="ccc">            
+            <div>Evora</div>
+            <div>3-Eleven</div>            
+          </popover>
+        </no-ssr>
 
       </vue-headroom>
 
@@ -30,9 +30,7 @@
 
 </script>
 
-<style>
-  .a[data-popover="ccc"] {
-    font-size: 1.5rem;
-  }
+<style lang="scss">
+ 
 </style>
 
