@@ -12,8 +12,8 @@
 
 .section-1__heading {
   display: grid;
-  grid-template-columns: 5vw minmax(30vw, 50vw) auto;
-  grid-template-rows: 1fr min-content min-content auto 6vh;
+  grid-template-columns: 3vw minmax(30vw, 50vw) auto;
+  grid-template-rows: .98fr min-content min-content auto 6vh;
   height: 100vh;
 }
 
