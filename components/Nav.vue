@@ -28,7 +28,7 @@
         </li>
 
         <li class="li-user-nav">
-          <nuxt-link to="/test">
+          <nuxt-link to="/test" class="a">
             Test Drive          
           </nuxt-link>
         </li>
