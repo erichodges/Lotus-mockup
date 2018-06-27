@@ -28,9 +28,9 @@
         </li>
 
         <li class="li-user-nav">
-          <a class="a" href="#" v-scroll-to="'#section-3'">
-            Test Drive
-          </a>
+          <nuxt-link to="/test">
+            Test Drive          
+          </nuxt-link>
         </li>
 
         <li class="li-user-nav">
