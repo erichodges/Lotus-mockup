@@ -3,10 +3,10 @@
     <section class="section-1">    
       <div class="section-1__heading">           
         <h1 class="title">
-          Evora Sport 410   <!-- {{ items.fields.h1 }} -->
+          X Sport 500   <!-- {{ items.fields.h1 }} -->
         </h1>
         <h2 class="subtitle">
-          Pure Driving Pleasure<!-- {{ items.fields.h2 }} -->
+          Pure Driving Excitement<!-- {{ items.fields.h2 }} -->
         </h2>
         <div class="links">
           <a
