@@ -1,6 +1,6 @@
 <template>
   <main class="main">
-    <h1 class="text">Test Page woohoo</h1>
+    <h1 class="text">Test Drive Page woohoo</h1>
   </main>
 </template>
 
@@ -20,5 +20,6 @@ export default {
 
   .text {
     padding-top: 40rem;
+    
   }
 </style>
