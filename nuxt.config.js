@@ -2,6 +2,7 @@ require('dotenv').config()
 const config = require('./.contentful.json')
 
 module.exports = {
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -54,11 +55,10 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
   /*
   ** Build configuration
   */
-
-  // mode: 'universal',
 
   build: {
     /*
