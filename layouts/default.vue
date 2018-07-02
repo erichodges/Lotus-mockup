@@ -24,8 +24,8 @@
 <style lang="scss">
   .div-with-background { 
     height: 100vh; 
-    align-items: center;
-    text-align: center;
+    // align-items: center;
+    // text-align: center;
 
     background-image: url('~/assets/images/2017_lotus_evora_sport_410-2560x1440.jpg');
     background-size: cover;
